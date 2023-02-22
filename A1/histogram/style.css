@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#box-div {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#bar-area rect {
+    fill: cornflowerblue;
+}
+
+
+#yes-title ,#count-title{
+    text-anchor: middle;
+    fill: rgba(105, 105, 105, 0.871);
+    font-size: 20px;
+}

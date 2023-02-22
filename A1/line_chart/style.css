@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#box-div {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#yes-line circle {
+    fill: rgb(220, 135, 56);
+    opacity: 0.6;
+}
+
+
+#yes-line path {
+    stroke: rgb(159, 224, 79);
+    stroke-width: 2.5px;
+    fill: none;
+
+ }
+
+ #date-axis #date-title,
+ #yes-axis #yes-title {
+   text-anchor: left;
+   fill: rgba(0, 0, 0, 0.71);
+   font-size: 14px;
+ }
